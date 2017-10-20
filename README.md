@@ -7,4 +7,4 @@
 
 ## 如何预览
  
-点击 https://ljiah.github.io/blog20170923/ 即可预览
+点击 https://ljiah.github.io/blog/ 即可预览
