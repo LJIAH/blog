@@ -1,1 +1,43 @@
-## 既然选择了远方,便只顾风雨兼程!
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>不要去追一只马</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.js"></script>
+  <link rel="stylesheet" href="https://typo.sofi.sh/typo.css">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <style>
+  body{
+    padding: 16px;
+  }
+  img{
+    max-width: 100%;
+  }
+  </style>
+</head>
+<body>
+  <div id="content">
+#不要去追一匹马，
+用追马的时间种草，
+待到春暖花开时就会有一批骏马，
+任你挑选。
+不去刻意巴结一个人，
+用时间去完善自己，完善你的能力，
+待到时机成熟时，
+会有一大批的朋友任你选择。
+用人情做出来的朋友只是暂时的，
+用人格魅力吸引来的朋友才能长久下去。
+所以，
+丰富自己比取悦他人要有力量得多！
+种下梧桐树引来金凤凰！
+你若盛开蝴蝶自来！
+  </div>
+  
+  <script>
+    var content= document.getElementById('content')
+    var markdown = content.innerHTML 
+    var html = marked(markdown)
+    content.innerHTML = html
+  </script>
+</body>
+</html>
